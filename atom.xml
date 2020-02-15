@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://sshhsh.github.io</id>
     <title>Gridea</title>
-    <updated>2020-02-15T02:34:53.846Z</updated>
+    <updated>2020-02-15T08:25:22.450Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://sshhsh.github.io"/>
     <link rel="self" href="https://sshhsh.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://sshhsh.github.io/images/avatar.png</logo>
     <icon>https://sshhsh.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[ddclient debug]]></title>
+        <id>https://sshhsh.github.io/post/ddclient-debug</id>
+        <link href="https://sshhsh.github.io/post/ddclient-debug">
+        </link>
+        <updated>2020-02-15T08:24:09.000Z</updated>
+        <content type="html"><![CDATA[<p>Debugging ddclient looks pretty hard but it isn't. First try to put as less as necessary in your configuration. Try to run</p>
+<p><code>./ddclient -daemon=0 -noquiet -debug</code><br>
+and check the result. Try to add the features you need and check it again.</p>
+<p>Once you're happy with the result, run it as a daemon.</p>
+<p>If this doesn't work for you, there are a few places where you can look for help. If you need any help in configuring ddclient,<br>
+You could try ddclient --help. It should give you all the possible configuration options so.</p>
+<p>If you think your configuration is correct, but ddclient doesn't work as you expected, you can enable debug and verbose messages by running</p>
+<p><code>ddclient -daemon=0 -debug -verbose -noquiet</code><br>
+We know the manual is not very clear, you have to read the example configurations included in the tar-file or you can run ddclient --help to get more help.</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[动手深度学习 笔记（1）]]></title>
         <id>https://sshhsh.github.io/post/deeplearning_note_1</id>
